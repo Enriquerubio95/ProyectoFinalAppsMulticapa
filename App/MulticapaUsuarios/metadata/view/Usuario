@@ -1,0 +1,528 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "usuario",
+        "designer|userClassName": "Usuario",
+        "height": null,
+        "id": "VentanaUsuario",
+        "layout": null,
+        "modal": true,
+        "title": null,
+        "width": 400
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "layout": "string",
+        "title": "string",
+        "width": "auto",
+        "modal": "boolean"
+    },
+    "name": "MyWindow",
+    "designerId": "1b8891ca-761f-4972-87b3-0e1ce82ef6a3",
+    "viewControllerInstanceId": "d1bf90bd-68b4-461a-820d-39c9a4587ed7",
+    "viewModelInstanceId": "36c44702-3fa1-4ab6-a343-99b395b74479",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "id": "formaCliente",
+                "layout": "column",
+                "title": null
+            },
+            "configAlternates": {
+                "bodyPadding": "auto",
+                "id": "string",
+                "layout": "string",
+                "title": "string"
+            },
+            "name": "MyForm1",
+            "designerId": "27f32e8b-f915-427b-a164-3e9ce46e19cc",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "allowBlank": false,
+                        "allowOnlyWhitespace": false,
+                        "fieldLabel": "Nombre",
+                        "name": "Nombre",
+                        "padding": "0 0 5 0",
+                        "width": "100%"
+                    },
+                    "configAlternates": {
+                        "allowBlank": "boolean",
+                        "allowOnlyWhitespace": "boolean",
+                        "fieldLabel": "string",
+                        "name": "string",
+                        "padding": "auto",
+                        "width": "auto"
+                    },
+                    "name": "MyTextField1",
+                    "designerId": "c5c4b68e-22a9-482d-bab8-8be7c73a7d22"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "allowBlank": false,
+                        "allowOnlyWhitespace": false,
+                        "fieldLabel": "Ap. Paterno",
+                        "name": "ApPaterno",
+                        "padding": "5 0 5 0",
+                        "width": "100%"
+                    },
+                    "configAlternates": {
+                        "allowBlank": "boolean",
+                        "allowOnlyWhitespace": "boolean",
+                        "fieldLabel": "string",
+                        "name": "string",
+                        "padding": "auto",
+                        "width": "auto"
+                    },
+                    "name": "MyTextField2",
+                    "designerId": "41e63a44-dd60-4fba-b75f-fc33bb58c418"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "allowBlank": false,
+                        "allowOnlyWhitespace": false,
+                        "fieldLabel": "Ap. Materno",
+                        "name": "ApMaterno",
+                        "padding": "5 0 5 0",
+                        "width": "100%"
+                    },
+                    "configAlternates": {
+                        "allowBlank": "boolean",
+                        "allowOnlyWhitespace": "boolean",
+                        "fieldLabel": "string",
+                        "name": "string",
+                        "padding": "auto",
+                        "width": "auto"
+                    },
+                    "name": "MyTextField3",
+                    "designerId": "9178c641-935b-4209-892c-80d4f18a8484"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "allowBlank": false,
+                        "allowOnlyWhitespace": false,
+                        "fieldLabel": "Teléfono",
+                        "name": "Telefono",
+                        "padding": "5 0 5 0",
+                        "width": "100%"
+                    },
+                    "configAlternates": {
+                        "allowBlank": "boolean",
+                        "allowOnlyWhitespace": "boolean",
+                        "fieldLabel": "string",
+                        "name": "string",
+                        "padding": "auto",
+                        "width": "auto"
+                    },
+                    "name": "MyTextField4",
+                    "designerId": "3c12b74f-ed61-402a-9796-1ec5b3e06ea6"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "allowBlank": false,
+                        "allowOnlyWhitespace": false,
+                        "fieldLabel": "E-mail",
+                        "inputType": "email",
+                        "name": "Correo",
+                        "padding": "5 0 5 0",
+                        "width": "100%"
+                    },
+                    "configAlternates": {
+                        "allowBlank": "boolean",
+                        "allowOnlyWhitespace": "boolean",
+                        "fieldLabel": "string",
+                        "inputType": "string",
+                        "name": "string",
+                        "padding": "auto",
+                        "width": "auto"
+                    },
+                    "name": "MyTextField5",
+                    "designerId": "3f986062-f108-4394-8425-b18c3790fb01"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "allowBlank": false,
+                        "allowOnlyWhitespace": false,
+                        "fieldLabel": "Calle",
+                        "name": "Calle",
+                        "padding": "5 0 5 0",
+                        "width": "100%"
+                    },
+                    "configAlternates": {
+                        "allowBlank": "boolean",
+                        "allowOnlyWhitespace": "boolean",
+                        "fieldLabel": "string",
+                        "name": "string",
+                        "padding": "auto",
+                        "width": "auto"
+                    },
+                    "name": "MyTextField6",
+                    "designerId": "1df70da7-4430-40e4-9093-352bb7ae6251"
+                },
+                {
+                    "type": "Ext.form.field.Number",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "allowBlank": false,
+                        "allowDecimals": false,
+                        "allowExponential": false,
+                        "allowOnlyWhitespace": false,
+                        "emptyText": "No. Exterior",
+                        "fieldLabel": "No. Exterior",
+                        "hideTrigger": true,
+                        "name": "NoExterior",
+                        "padding": "5 0 5 0",
+                        "width": "70%"
+                    },
+                    "configAlternates": {
+                        "emptyText": "string",
+                        "fieldLabel": "string",
+                        "name": "string",
+                        "padding": "auto",
+                        "width": "auto",
+                        "allowBlank": "boolean",
+                        "allowDecimals": "boolean",
+                        "allowExponential": "boolean",
+                        "allowOnlyWhitespace": "boolean",
+                        "hideTrigger": "boolean"
+                    },
+                    "name": "MyNumberField",
+                    "designerId": "399ec1d0-9352-4370-ba79-049c697fac84"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "emptyText": "No. Interior",
+                        "fieldLabel": null,
+                        "name": "NoInterior",
+                        "padding": "5 0 5 10",
+                        "width": "26%"
+                    },
+                    "configAlternates": {
+                        "emptyText": "string",
+                        "fieldLabel": "string",
+                        "name": "string",
+                        "padding": "auto",
+                        "width": "auto"
+                    },
+                    "name": "MyTextField8",
+                    "designerId": "4aeffb8e-3aad-489f-a51e-5f8c956ebf68"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "allowBlank": false,
+                        "allowOnlyWhitespace": false,
+                        "fieldLabel": "Ciudad",
+                        "name": "Ciudad",
+                        "padding": "5 0 5 0",
+                        "width": "100%"
+                    },
+                    "configAlternates": {
+                        "allowBlank": "boolean",
+                        "allowOnlyWhitespace": "boolean",
+                        "fieldLabel": "string",
+                        "name": "string",
+                        "padding": "auto",
+                        "width": "auto"
+                    },
+                    "name": "MyTextField9",
+                    "designerId": "0c57632b-0e2c-457c-b70e-d2cebad36e8c"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "allowBlank": false,
+                        "allowOnlyWhitespace": false,
+                        "fieldLabel": "Estado",
+                        "name": "Estado",
+                        "padding": "5 0 5 0",
+                        "width": "100%"
+                    },
+                    "configAlternates": {
+                        "allowBlank": "boolean",
+                        "allowOnlyWhitespace": "boolean",
+                        "fieldLabel": "string",
+                        "name": "string",
+                        "padding": "auto",
+                        "width": "auto"
+                    },
+                    "name": "MyTextField10",
+                    "designerId": "05ff7ed6-47b8-471c-82ab-a300aa83a851"
+                },
+                {
+                    "type": "Ext.toolbar.Toolbar",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|pack": "end",
+                        "dock": "bottom",
+                        "itemId": "BarraBotonesVU"
+                    },
+                    "configAlternates": {
+                        "container|pack": "string",
+                        "dock": "string",
+                        "itemId": "string"
+                    },
+                    "name": "MyToolbar3",
+                    "designerId": "30361934-8993-434c-859b-3d63c479d655",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "text": "Cancelar"
+                            },
+                            "configAlternates": {
+                                "layout|flex": "number",
+                                "text": "string"
+                            },
+                            "name": "MyButton3",
+                            "designerId": "3f8b7590-84a4-4baa-bd1c-774bf3cbbdb9",
+                            "cn": [
+                                {
+                                    "type": "viewcontrollereventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onBtnCancelarClick",
+                                        "implHandler": [
+                                            "this.closeView();"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
+                                    },
+                                    "configAlternates": {
+                                        "fn": "string",
+                                        "implHandler": "code",
+                                        "name": "string",
+                                        "scope": "string"
+                                    },
+                                    "name": "onBtnCancelarClick",
+                                    "designerId": "57c831fd-fa17-464f-b34b-30b09fedda44"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "text": "Aceptar"
+                            },
+                            "configAlternates": {
+                                "layout|flex": "number",
+                                "text": "string"
+                            },
+                            "name": "MyButton4",
+                            "designerId": "0ae9ac01-6de9-4fea-9ac9-d153a124cb0e",
+                            "cn": [
+                                {
+                                    "type": "viewcontrollereventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onBtnAceptarClick",
+                                        "implHandler": [
+                                            "var window = button.up('window'),",
+                                            "            vm = this.getViewModel(),",
+                                            "            form = button.up('form').getForm();",
+                                            "",
+                                            "        if(window.title === 'Editar cliente'){",
+                                            "            var data = vm.data.cliente.data;",
+                                            "            Ext.Ajax.request({",
+                                            "                url: 'http://localhost:52110/api/Clientes/' + data.Id,",
+                                            "                method: 'PUT',",
+                                            "                headers: {'Content-Type': 'application/json;charset=utf-8'},",
+                                            "                jsonData:{",
+                                            "                    Id: data.Id,",
+                                            "                    Nombre: form.findField('Nombre').getValue(),",
+                                            "                    ApellidoPaterno: form.findField('ApPaterno').getValue(),",
+                                            "                    ApellidoMaterno: form.findField('ApMaterno').getValue(),",
+                                            "                    CorreoElectronico: form.findField('Correo').getValue(),",
+                                            "                    Telefono: form.findField('Telefono').getValue(),",
+                                            "                    Calle: form.findField('Calle').getValue(),",
+                                            "                    NumeroExterior: form.findField('NoExterior').getValue(),",
+                                            "                    NumeroInterior: form.findField('NoInterior').getValue(),",
+                                            "                    Ciudad: form.findField('Ciudad').getValue(),",
+                                            "                    Estado: form.findField('Estado').getValue(),",
+                                            "                }",
+                                            "            });",
+                                            "            Ext.getStore('Usuarios').load();",
+                                            "            Ext.Msg.alert('Aviso', 'Cliente editado con exito');",
+                                            "            Ext.getCmp('clientesGrid').getView().refresh();",
+                                            "            this.closeView();",
+                                            "",
+                                            "        }",
+                                            "",
+                                            "        if(window.title === 'Cliente nuevo'){",
+                                            "            Ext.Ajax.request({",
+                                            "                url: 'http://localhost:52110/api/Clientes',",
+                                            "                method: 'POST',",
+                                            "                headers: {'Content-Type': 'application/json;charset=utf-8'},",
+                                            "                jsonData:{",
+                                            "                    Nombre: form.findField('Nombre').getValue(),",
+                                            "                    ApellidoPaterno: form.findField('ApPaterno').getValue(),",
+                                            "                    ApellidoMaterno: form.findField('ApMaterno').getValue(),",
+                                            "                    CorreoElectronico: form.findField('Correo').getValue(),",
+                                            "                    Telefono: form.findField('Telefono').getValue(),",
+                                            "                    Calle: form.findField('Calle').getValue(),",
+                                            "                    NumeroExterior: form.findField('NoExterior').getValue(),",
+                                            "                    NumeroInterior: form.findField('NoInterior').getValue(),",
+                                            "                    Ciudad: form.findField('Ciudad').getValue(),",
+                                            "                    Estado: form.findField('Estado').getValue(),",
+                                            "                }",
+                                            "            });",
+                                            "            Ext.getStore('Usuarios').load();",
+                                            "            Ext.Msg.alert('Aviso', 'Cliente creado con exito');",
+                                            "            Ext.getCmp('clientesGrid').getView().refresh();",
+                                            "            this.closeView();",
+                                            "        }"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
+                                    },
+                                    "configAlternates": {
+                                        "fn": "string",
+                                        "implHandler": "code",
+                                        "name": "string",
+                                        "scope": "string"
+                                    },
+                                    "name": "onBtnAceptarClick",
+                                    "designerId": "539e8f1a-ba12-480b-b2b3-c7781dbbdd8d"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "viewcontrollereventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onVentanaUsuarioShow",
+                "implHandler": [
+                    "var vm = this.getViewModel(),",
+                    "    form = component.down('form').getForm();",
+                    "",
+                    "if(component.title === 'Editar cliente'){",
+                    "    var data = vm.data.cliente.data;",
+                    "    form.findField('Nombre').setValue(data.Nombre);",
+                    "    form.findField('ApPaterno').setValue(data.ApellidoPaterno);",
+                    "    form.findField('ApMaterno').setValue(data.ApellidoMaterno);",
+                    "    form.findField('Correo').setValue(data.CorreoElectronico);",
+                    "    form.findField('Telefono').setValue(data.Telefono);",
+                    "    form.findField('Calle').setValue(data.Calle);",
+                    "    form.findField('NoExterior').setValue(data.NumeroExterior);",
+                    "    form.findField('NoInterior').setValue(data.NumeroInterior);",
+                    "    form.findField('Ciudad').setValue(data.Ciudad);",
+                    "    form.findField('Estado').setValue(data.Estado);",
+                    "}"
+                ],
+                "name": "show",
+                "scope": "me"
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onVentanaUsuarioShow",
+            "designerId": "5ed7425f-8cae-47f8-a510-fe7bd82d3642"
+        }
+    ]
+}

@@ -1,0 +1,136 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "vistaprincipal",
+        "designer|userClassName": "VistaPrincipalViewController"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "designerId": "1dc59f02-0890-4714-991d-7176b8496bc2",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "titulo"
+                ],
+                "fn": "VentanaUsuario",
+                "implHandler": [
+                    "var ventana = Ext.getCmp('VentanaUsuario'),",
+                    "    selection = Ext.getCmp('clientesGrid').getSelectionModel().getSelection()[0];",
+                    "this.getView().add(ventana);",
+                    "",
+                    "if(titulo == 'Editar cliente'){",
+                    "    ventana = Ext.create('widget.usuario',",
+                    "                         {viewModel:{",
+                    "                             data: {cliente: selection}",
+                    "                         }}",
+                    "                        );",
+                    "    ventana.setTitle(titulo);",
+                    "    ventana.show();",
+                    "}",
+                    "",
+                    "if(titulo == 'Cliente nuevo'){",
+                    "    ventana = Ext.create('widget.usuario');",
+                    "    ventana.setTitle(titulo);",
+                    "    ventana.show();",
+                    "}"
+                ]
+            },
+            "configAlternates": {
+                "designer|params": "typedarray",
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "VentanaUsuario",
+            "designerId": "b31b0149-1a5f-4f6a-bbfa-e7b2cfea952f"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "parametrosFiltrado",
+                "implHandler": [
+                    "var referencia = this.getReferences(),",
+                    "    buscar = referencia.campoBusqueda,",
+                    "    filtro = referencia.comboFiltro,",
+                    "    seleccion = filtro.getValue();",
+                    "",
+                    "if(seleccion == \"Nombre\"){",
+                    "    if(buscar.value){",
+                    "        this.creacionDeFiltros(seleccion);",
+                    "    }",
+                    "}",
+                    "",
+                    "if(seleccion == \"Ciudad\"){",
+                    "    if(buscar.value){",
+                    "        this.creacionDeFiltros(seleccion);",
+                    "    }",
+                    "}",
+                    "",
+                    "if(seleccion == \"Estado\"){",
+                    "    if(buscar.value){",
+                    "        this.creacionDeFiltros(seleccion);",
+                    "    }",
+                    "}"
+                ]
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "parametrosFiltrado",
+            "designerId": "0311d444-47e5-4115-b81f-04f21e25e9ad"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "seleccion"
+                ],
+                "fn": "creacionDeFiltros",
+                "implHandler": [
+                    "var referencia = this.getReferences(),",
+                    "    buscar = referencia.campoBusqueda,",
+                    "    filtros = referencia.clientesGrid.store.getFilters();",
+                    "",
+                    "this.filter = filtros.add({",
+                    "        id: seleccion + 'Filter',",
+                    "        property: seleccion,",
+                    "        value: buscar.value,",
+                    "        anyMatch: true,",
+                    "        caseSensitive: false",
+                    "});"
+                ]
+            },
+            "configAlternates": {
+                "designer|params": "typedarray",
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "creacionDeFiltros",
+            "designerId": "e2d23cb3-ad91-4e8c-85e1-11a318bcce14"
+        }
+    ]
+}

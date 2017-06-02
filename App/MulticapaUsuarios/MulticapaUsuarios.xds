@@ -1,0 +1,58 @@
+{
+    "name": "MulticapaUsuarios",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "6.2.2.36",
+            "frameworkVersion": "6.2.1.167"
+        },
+        "urlPrefixTemplate": "http://localhost:{port}/{path}",
+        "urlPrefix": "http://localhost:50781/",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Large",
+                "builtIn": true,
+                "height": 1024,
+                "width": 1280
+            }
+        },
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "4.1.2",
+    "xdsBuild": 188,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "ext62",
+    "viewOrderMap": {
+        "view": [
+            "e30a72c0-34f5-478a-9c9a-b1e1ff874d61",
+            "056b90de-9374-44e3-8cc7-f7aa163443b5",
+            "1dc59f02-0890-4714-991d-7176b8496bc2",
+            "1b8891ca-761f-4972-87b3-0e1ce82ef6a3",
+            "36c44702-3fa1-4ab6-a343-99b395b74479",
+            "d1bf90bd-68b4-461a-820d-39c9a4587ed7"
+        ],
+        "store": [
+            "83598925-6ccd-43e6-90bf-5846425af4c1",
+            "055368d8-ca51-451d-9072-e914007eaedb"
+        ],
+        "controller": [],
+        "model": [
+            "cacd84f1-83ed-4238-9fec-0ac357cc3642"
+        ],
+        "resource": [
+            "81cfde63-c3a9-4678-b305-5474cd1b0a08",
+            "e3f8d3d7-fb4c-4464-8af2-1c7d34873d8a"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

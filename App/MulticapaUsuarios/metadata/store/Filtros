@@ -1,0 +1,77 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "data": [
+            "[{",
+            "Id: 1,",
+            "Descripcion: \"Nombre\"",
+            "},",
+            "{",
+            "Id: 2,",
+            "Descripcion: \"Ciudad\"",
+            "},",
+            "{",
+            "Id: 3,",
+            "Descripcion: \"Estado\"",
+            "}]"
+        ],
+        "designer|userClassName": "Filtros",
+        "storeId": "Filtros"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "storeId": "string",
+        "data": "array"
+    },
+    "name": "MyStore1",
+    "designerId": "055368d8-ca51-451d-9072-e914007eaedb",
+    "cn": [
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Id"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyField",
+            "designerId": "216f693d-9700-4426-a345-fc43de1dedec"
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Descripcion"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyField5",
+            "designerId": "dd0e1915-c784-4120-9095-0c9d7d5d3343"
+        },
+        {
+            "type": "Ext.data.proxy.Memory",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "name": "MyMemoryProxy",
+            "designerId": "8139e981-3100-4078-a65d-6bec1b5add65"
+        }
+    ]
+}

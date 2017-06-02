@@ -1,0 +1,54 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "autoSync": true,
+        "designer|userClassName": "Usuarios",
+        "model": "Usuario",
+        "storeId": "Usuarios"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "storeId": "string",
+        "autoLoad": "boolean",
+        "autoSync": "boolean",
+        "model": "model"
+    },
+    "name": "MyStore",
+    "designerId": "83598925-6ccd-43e6-90bf-5846425af4c1",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://localhost:52110/api/Clientes"
+            },
+            "configAlternates": {
+                "url": "string"
+            },
+            "name": "MyAjaxProxy",
+            "designerId": "fbf4b33f-98ba-4d54-991a-9836ec21c561",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyJsonReader",
+                    "designerId": "bc092b67-25fe-42b1-8f46-cd05d46a9342"
+                }
+            ]
+        }
+    ]
+}
